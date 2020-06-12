@@ -1,0 +1,52 @@
+/* Global Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	--header1: 2rem;
+	--header2: 1.5rem;
+	--header3: 1.2rem;
+	--header4: 1rem;
+	--text: 1rem;
+}
+
+h1 {
+	font-size: var(--header1);
+}
+
+h2 {
+	font-size: var(--header2);
+}
+
+h3 {
+	font-size: var(--header3);
+}
+
+h4,
+h5,
+h6 {
+	font-size: var(--header4);
+}
+
+li,
+button,
+label,
+input,
+p,
+a {
+	font-size: var(--text);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
