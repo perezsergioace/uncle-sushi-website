@@ -12,7 +12,7 @@ html {
 	--header2: 1.5rem;
 	--header3: 1.2rem;
 	--header4: 1rem;
-	--text: 1rem;
+	--text: 2rem;
 }
 
 h1 {
@@ -48,5 +48,37 @@ ul {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+
+.logo img {
+	width: 30%;
+}
+
+.main-head {
+	background-color: black;
+}
+
+nav {
+	display: flex;
+	min-height: 10vh;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+}
+
+ul {
+	display: flex;
+}
+
+.logo {
+	flex: 1 1 20rem;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	flex: 1 1 20rem;
 }
