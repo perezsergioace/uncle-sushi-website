@@ -122,7 +122,24 @@ video {
 }
 
 .welcome {
-	background-color: black;
-	color: white;
-	height: 100vh;
+	background-color: white;
+	color: black;
+	height: 95vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome-text {
+	display: flex;
+    flex-direction: column;
+}
+
+.welcome-text h1 {
+	font-size: 5rem;
+}
+
+.welcome-text p {
+	font-size: 3rem;
 }
